@@ -3,6 +3,7 @@
 // https://github.com/sendgrid/sendgrid-php
 // If you are using Composer (recommended)
 require 'vendor/autoload.php';
+if (isset($_POST['submit'])) {
 $from = new SendGrid\Email("Example User", "test@example.com");
 $subject = "Sending with SendGrid is Fun";
 $to = new SendGrid\Email("Example User", "edelson.m.jason@gmail.com");
@@ -16,3 +17,5 @@ print_r($response->headers());
 echo $response->body();
 
 header('Location: index.html');
+}
+?>
