@@ -15,12 +15,12 @@ $(document).ready(function() {
         screen_resize();
 	});
   $('.form-button').click(function(){
-    $.ajax({
-    type: "POST",
-    url: "./mail.php",
-    data: { name: "John" }
-    }).done(function( msg ) {
-      alert( "Data Saved: " + msg );
+    var clickBtnValue = $(this).val();
+    var ajaxurl = 'ajax.php',
+    data =  {'action': clickBtnValue};
+    $.post(ajaxurl, data, function (response) {
+        // Response div goes here.
+        alert("action performed successfully");
     });
   });
 });
