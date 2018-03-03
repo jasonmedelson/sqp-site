@@ -14,6 +14,15 @@ $(document).ready(function() {
 	$(window).resize(function(e) {
         screen_resize();
 	});
+  $('.form-button').click(function(){
+    $.ajax({
+    type: "POST",
+    url: "./mail.php",
+    data: { name: "John" }
+    }).done(function( msg ) {
+      alert( "Data Saved: " + msg );
+    });
+  });
 });
 
 function screen_resize() {
