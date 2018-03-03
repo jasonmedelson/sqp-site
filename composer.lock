@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "31a416743df03ec89ce9f557ff36c18e",
+    "content-hash": "9bae1c8165e59dc6d7f4d61d77e3b7cf",
     "packages": [
         {
             "name": "sendgrid/php-http-client",
@@ -111,6 +111,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^7.1.0"
+    },
     "platform-dev": []
 }
