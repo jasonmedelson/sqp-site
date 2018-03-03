@@ -3,4 +3,7 @@
   "require": {
     "sendgrid/sendgrid": "~6.0"
   }
+  "require": {
+    "php": "^7.1.0"
+  }
 }
