@@ -1,0 +1,256 @@
+/* header{
+  background-color:rgba(160,160,160,0.4);
+}
+#logo{
+  font-family: 'Oswald', sans-serif;
+  color:rgb(150,150,200);
+  font-size: 2em;
+  text-align: center;
+
+}
+nav ul.nav li{
+  float: right;
+  display: inline-block;
+} */
+/* Header */
+.navbar-brand{
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  color:rgba(63, 112, 195, 0.8) !important;
+  margin-left: 20px;
+}
+.collapse.show {
+  text-align: center;
+}
+.collapsing{
+  text-align: center;
+}
+.nav-item{
+  font-size: 1.1em;
+
+}
+div.collapsing ul.navbar-nav li.nav-item{
+  margin-right: 0 !important;
+}
+div.show ul.navbar-nav li.nav-item{
+  margin-right: 0 !important;
+}
+.nav-item:hover{
+  /* font-size: 1.3em;
+  transition: font-size 1s;
+  -webkit-transition: font-size 1s; /* Safari */
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+
+}
+/* Home */
+#home{
+  background: linear-gradient(151deg, #9a9f9a, #ffffff, #9E9E9E);
+  margin-top: 74px;
+}
+.maintext{
+  text-align: center;
+}
+.homecontent{
+  margin-top: 30px;
+}
+div.maintext div h1{
+  color:rgba(63, 112, 195, 0.8) !important;
+  /* font-family: 'Maven Pro', sans-serif; */
+  font-family: 'Rubik', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+div.mainbody{
+  padding-top: 50px;
+}
+#home div.container-fluid{
+  width: 75%;
+}
+/* About */
+#about{
+}
+.abouthead h1{
+  text-align: center;
+  color:rgba(63, 112, 195, 0.8) !important;
+  font-family: 'Rubik', sans-serif !important;
+  font-size: 2.5rem !important;
+  font-weight: bold !important;
+}
+div.aboutcenter h2{
+  text-align: center;
+}
+#about div.container-fluid{
+  width: 95%;
+}
+/* Products */
+#products{
+  background: linear-gradient(to right, #9e9e9ecc 0%, #9e9e9e1f 20%, #9e9e9e1f 80%, #9e9e9ecc 100%)
+}
+.producthead h1{
+  text-align: center;
+  color:rgba(63, 112, 195, 0.8) !important;
+  font-family: 'Rubik', sans-serif !important;
+  font-size: 2.5rem !important;
+  font-weight: bold !important;
+}
+.producthead h2{
+  text-align: center;
+}
+.productinfo h3{
+  text-align: center;
+}
+/* Photos */
+#photos{
+  background: linear-gradient(to right, #9e9e9ecc 0%, #9e9e9e1f 20%, #9e9e9e1f 80%, #9e9e9ecc 100%)
+}
+.carousel-item{
+  width: 100%;
+  height:100%;
+}
+.carouselimg{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.carousel-inner img {
+  margin: auto !important;
+}
+.carouselhead{
+  color:black;
+}
+.carouselcontent{
+  margin: auto !important;
+  width: 90%;
+  height: 500px !important;
+}
+.carousel1{
+  background-image: url(..\\img\\sqpcarousel1.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.carousel2{
+  background-image: url(..\\img\\sqpcarousel2.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.carousel3{
+  background-image: url(..\\img\\sqpcarousel3.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.carousel4{
+  background-image: url(..\\img\\sqpcarousel4.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.carousel5{
+  background-image: url(..\\img\\sqpcarousel5.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.carousel6{
+  background-image: url(..\\img\\sqpcarousel6.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.carousel7{
+  background-image: url(..\\img\\sqpcarousel7.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.carousel-control-next{
+  transition: background 1.5s;
+  -webkit-transition: background 1.5s;
+  -moz-transition: background 1.5s;
+}
+.carousel-control-prev{
+  transition: background 1.5s;
+  -webkit-transition: background 1.5s;
+  -moz-transition: background 1.5s;
+}
+.carousel-control-next:hover{
+  background: #49434340;
+
+}
+.carousel-control-prev:hover{
+  background: #49434340;
+}
+.carousel-indicators li:hover{
+  background: #00000057;
+}
+.carousel-indicators li{
+  transition: background 1.5s;
+  -webkit-transition: background 1.5s;
+  -moz-transition: background 1.5s;
+}
+/* Contact */
+#contact {
+  background: linear-gradient(to top right, #9e9e9ecc 10%, #9e9e9e1f 30%, #9e9e9e1f 70%, #9e9e9ecc 90%),
+              linear-gradient(to top left, #9e9e9ecc 10%, #9e9e9e1f 30%, #9e9e9e1f 70%, #9e9e9ecc 90%);
+  color: rgba(63, 112, 195, 0.8);
+  padding: 80px 0 120px 0;
+  text-align: center;
+  border-bottom: 1px solid #ccc; }
+#contact p {
+  margin: 10px 0; }
+#contact h2 {
+    color: rgba(63, 112, 195, 0.8);
+}
+#contact .btn {
+  width: 100%;
+  background-color: red;
+  color: #ffffff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.5s;
+  -webkit-transition: box-shadow 0.5s;
+  -moz-transition: box-shadow 0.5s;
+}
+#contact .btn:hover{
+  box-shadow: 0 0 6px rgba(35, 173, 255, 1);
+}
+#myemail {
+  font-weight: 900;
+  font-size: 22px;
+  color:rgba(63, 112, 195, 0.8);
+ }
+.formcenter{
+  text-align: center;
+}
+.officephone{
+  font-weight: 900;
+  font-size: 22px;
+  color:rgba(63, 112, 195, 0.8);
+}
+h1.contacthead{
+  text-align: center;
+  color: rgba(63, 112, 195, 0.8) !important;
+  font-family: 'Rubik', sans-serif !important;
+  font-size: 2.5rem !important;
+  font-weight: bold !important;
+}
+/* Footer */
+footer {
+  background-color: #222327;
+  padding: 15px 0;
+}
+footer p {
+  margin: 10px 0 0 0;
+  font-family: "Cardo", "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-style: italic;
+  color: #999999;
+}
